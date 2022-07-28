@@ -1,0 +1,188 @@
+/*BODY*/
+.Back_Body
+{
+    background-color: gainsboro;
+}
+
+/*FIRST LINE*/
+.container-top
+{
+    background-color: black;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+
+/*BUTTONS LINE*/
+.container-vertical-buttons
+{
+    background-color: black;
+    height: 100px;
+    text-align: center;
+}
+
+/*SHOW STATE -REAL TIME -COUNTDOWN -STOPWATCH -NONE*/
+#Show_State
+{
+    position: absolute;
+    background-color: grey;
+    color: white;
+    top: 200px;
+    left: 550px;
+    border: 5px solid black;
+    font-size: 20px;
+    font-weight: bold;
+    width: 250px;
+    height: 50px;
+    text-align: center;
+}
+
+.vertical_button
+{
+    width: 300px;
+    height: 50px;
+    background-color: white;
+    color: black;
+    font-size: 20px;
+    margin-top: 25px;
+    border-radius: 15px;
+    border-width: 5px;
+    border-color: grey;
+}
+
+/*TIMER LINE*/
+.container-timer
+{
+    position: absolute;
+    height: 200px;
+    background-color: grey;
+    left: 150px;
+    top: 300px;
+    border: 10px solid;
+    border-color: black;
+    border-radius: 10px;
+    transition: height 1s;
+}
+
+.timer-front,.timer-last,.timer-middle,.timer-middle-plus
+{
+    background-color: black;
+    width: 100px;
+    height: 150px;
+    display: inline-block;
+    margin-top: 25px;
+    text-align: center;
+}
+
+
+.timer-front
+{
+    margin-left: 15px;
+}
+
+.timer-last
+{
+    margin-right: 15px;
+}
+
+.show-time
+{
+    color: white;
+    font-size: 100px;
+    margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.timer-middle-plus
+{
+    margin-left: 40px;
+}
+
+.separator
+{
+    color: white;
+    display: inline-block;
+    font-size: 100px;
+    position: absolute;
+    margin-top: 30px;
+}
+
+.St_Button
+{
+    height: 50px;
+    width: 150px;
+    border-width: 5px;
+    border-radius: 15px;
+    font-weight: bolder;
+    font-size: 15px;
+    color: white;
+    background-color: black;
+    border-color: white;
+    margin-top: 20px;
+    display: inline;
+}
+
+.StopWatch
+{
+    position: absolute;
+    top: 190px;
+    margin-left: 15px;
+    height: 90px;
+    width: 1052px;
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 5s linear, opacity 2.5s linear;
+}
+
+.round-log
+{
+    background-color: white;
+    height: 80px;
+    width: 545px;
+    position: absolute;
+    top: 5px;
+    left: 500px;
+    overflow-y: scroll;
+}
+
+.CountDown
+{
+    visibility: hidden;
+    margin-top: 15px;
+    margin-left: 15px;
+    background-color: grey;
+    width: 1052px;
+    height: 120px;
+    opacity: 0;
+    transition: visibility 5s linear, opacity 2.5s linear;
+}
+
+.CD_Number
+{
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    font-size: 100px;
+    margin-top: 7.5px;
+    
+}
+
+.CD_Button
+{
+    position: absolute;
+    height: 50px;
+    width: 300px;
+    border-width: 5px;
+    border-radius: 15px;
+    font-weight: bolder;
+    font-size: 15px;
+    color: white;
+    background-color: black;
+    border-color: white;
+    margin-top: 35px;
+    margin-left: 30px;
+}

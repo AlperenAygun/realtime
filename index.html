@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en" translate="no"> 
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Project 3</title>
+    <meta name="google" content="notranslate">
+</head>
+<body class="Back_Body">
+
+ <div id="Show_State">
+     <h1 id="_state" style="margin-top: 2px;">
+         State: None
+     </h1>
+ </div>
+
+ <div class="container-top">
+        <h1>
+            <b id="temporary">Project 3: Timer</b>
+        </h1>
+ </div>
+
+ <div class="container-vertical-buttons">
+    
+    <button id="_realtime" class="vertical_button">
+        Get Real Time
+    </button>
+    
+    <button id="_countdown" class="vertical_button">
+        Countdown
+    </button>
+    
+    <button id="_stopwatch" class="vertical_button">
+        Stopwatch
+    </button>
+
+    <button id="_reset" class="vertical_button">
+        Reset
+    </button>
+    
+
+ </div>
+
+ <div id="Timer_Container" class="container-timer">
+    
+    <div class="timer-front">
+        <h1 class="show-time" id="Hour_1">
+        0
+        </h1>
+    </div>
+
+    <div class="timer-middle">
+        <h1 class="show-time" id="Hour_2">
+        0
+        </h1>
+    </div>
+
+    <h1 class="separator">
+        :
+    </h1>
+
+    <div class="timer-middle-plus">
+        <h1 class="show-time" id="Minute_1">
+        0
+        </h1>
+    </div>
+
+    <div class="timer-middle">
+        <h1 class="show-time" id="Minute_2">
+        0
+        </h1>
+    </div>
+
+    <h1 class="separator">
+        :
+    </h1>
+
+    <div class="timer-middle-plus">
+        <h1 class="show-time" id="Second_1">
+        0
+        </h1>
+    </div>
+
+    <div class="timer-middle">
+        <h1 class="show-time" id="Second_2">
+        0
+        </h1>
+    </div>
+
+    <h1 class="separator">
+        :
+    </h1>
+
+    <div class="timer-middle-plus">
+        <h1 class="show-time" id="M_second_1">
+        0
+        </h1>
+    </div>
+
+    <div class="timer-middle">
+        <h1 class="show-time" id="M_second_2">
+        0
+        </h1>
+    </div>
+
+    <div class="timer-last">
+        <h1 class="show-time" id="M_second_3">
+        0
+        </h1>
+    </div>
+    
+    <div class="StopWatch">
+        <button id="Start" class="St_Button">
+            Start
+        </button>
+
+        <button id="Round" class="St_Button">
+            Round
+        </button>
+
+        <button id="Stop" class="St_Button">
+            Stop
+        </button>
+
+        <div class="round-log">
+            Stopwatch is ready... <br>
+        </div>
+    </div>
+
+    <div class="CountDown">
+        <input type="number" min="0" max="9" class="CD_Number" id="CDN_H1">
+        <input type="number" min="0" max="9" class="CD_Number" id="CDN_H2" style="margin-right: 15px;">
+        <input type="number" min="0" max="9" class="CD_Number" id="CDN_M1">
+        <input type="number" min="0" max="9" class="CD_Number" id="CDN_M2" style="margin-right: 15px;">
+        <input type="number" min="0" max="9" class="CD_Number" id="CDN_S1">
+        <input type="number" min="0" max="9" class="CD_Number" id="CDN_S2">
+
+        <button class="CD_Button" id="CD_Set"> Set </button>
+    </div>
+ </div>
+
+ <script src="realtime.js"></script>
+ <script src="stopwatch.js"></script>
+ <script src="countdown.js"></script>
+</body>
+</html>
